@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/pikachu icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./assets/pokemonlogo.png" alt="logo" class="logo-img"/>
+                <span class="logo-text">Characters</span>
+            </div>
+        </a>
+
+        <div class="social-media">
+
+            <a href="https://github.com/brunoclt">
+                <i class="fa-brands fa-github"></i>
+            
+            </a>
+            <a href="https://www.linkedin.com/in/bruno-terceti-02917a297/">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>Conheca todos os pokemons em um so lugar</h2>
+
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+
+
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próxima</button>
+        </div>
+
+    </div>
+
+    <div class="search-box">
+        <input type="text" class="search-txt" placeholder="Pesquisar Pokémon">
+        <a href="#" class="search-buttom">
+            <img src="./assets/loupe.png" alt="loupe" height="20" width="20">
+        </a>
+    </div>
+
+    <footer>
+        <p class="footer-logo">Pokemon Characters</p>
+        <p class="copyright">Desenvolvido por &copy; Bruno Terceti</p>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/424b040d9f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
